@@ -2,16 +2,6 @@
 /** @author ezMatt#9161 */
 
 function Module(name,category) {
-	var f = web_util.fetchJSON("http://ip.jsontest.com")
-	client.print(f)
-	client.print(f)
-	client.print(f)
-	client.print(f)
-	client.print(f)
-	client.print(f)
-	client.print(f)
-	client.print(f)
-	game.setTimer(0);
 	
 	if(arguments.length !== 2) {
 		client.print(Colour.AQUA + "Script" + Colour.WHITE + " » Not enough args specified (" + arguments.length + "), TWO (2) required.");
