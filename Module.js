@@ -18,7 +18,7 @@ function Module(name,category) {
 	}
 	
 	this.hide = function() {
-		player.sendMessage(".hide " + this.name)
+		player.sendMessage(".hide " + this.name);
 	}
 	this.toggle = function() {
 		client.toggleModule(this.name)
