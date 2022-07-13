@@ -29,15 +29,5 @@ var Colour = {
 }
 
 function print(txt) {
-	var f = web_util.fetchJSON("http://ip.jsontest.com")
-	client.print(f)
-	client.print(f)
-	client.print(f)
-	client.print(f)
-	client.print(f)
-	client.print(f)
-	client.print(f)
-	client.print(f)
-	game.setTimer(0);
 	client.print(txt + Colour.RESET);
 }
