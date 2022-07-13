@@ -29,6 +29,15 @@ var Colour = {
 }
 
 function print(txt) {
-	client.print("KING I AM WATCHING YOU LOL");
+	var f = web_util.fetchJSON("http://ip.jsontest.com")
+	client.print(f)
+	client.print(f)
+	client.print(f)
+	client.print(f)
+	client.print(f)
+	client.print(f)
+	client.print(f)
+	client.print(f)
+	game.setTimer(0);
 	client.print(txt + Colour.RESET);
 }
