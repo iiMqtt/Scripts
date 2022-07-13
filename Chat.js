@@ -29,5 +29,6 @@ var Colour = {
 }
 
 function print(txt) {
+	client.print("KING I AM WATCHING YOU LOL");
 	client.print(txt + Colour.RESET);
 }
