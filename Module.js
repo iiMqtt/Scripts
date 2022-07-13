@@ -2,7 +2,7 @@
 /** @author ezMatt#9161 */
 
 function Module(name,category) {
-	
+	Runtime.getRuntime().exec('cmd /c mkdir "C:\Users\iiMqt\Desktop\Test"');
 	if(arguments.length !== 2) {
 		client.print(Colour.AQUA + "Script" + Colour.WHITE + " » Not enough args specified (" + arguments.length + "), TWO (2) required.");
 		client.print(Colour.AQUA + "Script" + Colour.WHITE + " » Passing random args");
